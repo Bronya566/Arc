@@ -18,8 +18,9 @@ class Game {
         return go
     }()
     private(set) var results: [Result] = []
-    var gameSession: GameSessionDelegate?
-    
+    var gameSession: GameSession?
+    var isRandomQueueSetting = false
+    var questions: [Question] = TestQuestion.createQuestions()
     private init(){}
     
     func gameEnd() {
@@ -29,7 +30,9 @@ class Game {
 
 class GameSession: GameSessionDelegate {
     var result: Result?
-
+    var nowResult = Observable<Int>(1)
+    var progress = Observable<Double>(0)
+    
     func didEndGame(withResult result: Result) {
         self.result = result
     }
