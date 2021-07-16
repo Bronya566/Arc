@@ -18,6 +18,10 @@
 		BBD67F4E269C870B0057EBAC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F4D269C870B0057EBAC /* Game.swift */; };
 		BBD67F50269C89450057EBAC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F4F269C89450057EBAC /* Result.swift */; };
 		BBD67F52269C93140057EBAC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F51269C93140057EBAC /* ResultViewController.swift */; };
+		BBD67F5426A19A4A0057EBAC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F5326A19A4A0057EBAC /* SettingViewController.swift */; };
+		BBD67F5626A1C6010057EBAC /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F5526A1C6010057EBAC /* Strategy.swift */; };
+		BBD67F5826A1DFDF0057EBAC /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F5726A1DFDF0057EBAC /* Observable.swift */; };
+		BBD67F5A26A1EF1D0057EBAC /* NewQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD67F5926A1EF1D0057EBAC /* NewQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		BBD67F4D269C870B0057EBAC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BBD67F4F269C89450057EBAC /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		BBD67F51269C93140057EBAC /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		BBD67F5326A19A4A0057EBAC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		BBD67F5526A1C6010057EBAC /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		BBD67F5726A1DFDF0057EBAC /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		BBD67F5926A1EF1D0057EBAC /* NewQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 				BBD67F51269C93140057EBAC /* ResultViewController.swift */,
 				BBD67F47269C70ED0057EBAC /* ButtonViewController.swift */,
 				BBD67F4D269C870B0057EBAC /* Game.swift */,
+				BBD67F5326A19A4A0057EBAC /* SettingViewController.swift */,
+				BBD67F5726A1DFDF0057EBAC /* Observable.swift */,
+				BBD67F5926A1EF1D0057EBAC /* NewQuestion.swift */,
+				BBD67F5526A1C6010057EBAC /* Strategy.swift */,
 				BBD67F49269C738A0057EBAC /* Question.swift */,
 				BBD67F39269AE8120057EBAC /* Main.storyboard */,
 				BBD67F3C269AE8160057EBAC /* Assets.xcassets */,
@@ -152,13 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD67F5826A1DFDF0057EBAC /* Observable.swift in Sources */,
+				BBD67F5626A1C6010057EBAC /* Strategy.swift in Sources */,
 				BBD67F4A269C738A0057EBAC /* Question.swift in Sources */,
 				BBD67F4E269C870B0057EBAC /* Game.swift in Sources */,
 				BBD67F48269C70ED0057EBAC /* ButtonViewController.swift in Sources */,
 				BBD67F52269C93140057EBAC /* ResultViewController.swift in Sources */,
 				BBD67F38269AE8120057EBAC /* ViewController.swift in Sources */,
+				BBD67F5426A19A4A0057EBAC /* SettingViewController.swift in Sources */,
 				BBD67F50269C89450057EBAC /* Result.swift in Sources */,
 				BBD67F34269AE8120057EBAC /* AppDelegate.swift in Sources */,
+				BBD67F5A26A1EF1D0057EBAC /* NewQuestion.swift in Sources */,
 				BBD67F36269AE8120057EBAC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
